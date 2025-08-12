@@ -16,6 +16,7 @@ export default function Hero() {
         justifyContent: "center",
         textAlign: "center",
         px: 2,
+        my:5
       }}
     >
       <Typography

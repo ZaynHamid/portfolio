@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 
 export default function ContactForm() {
-  const [state, formspreeSubmit] = useForm(process.env.NEXT_PUBLIC_FORMSPREE_ID);
+  const [state, formspreeSubmit] = useForm('process.env.NEXT_PUBLIC_FORMSPREE_ID');
 
   const [formValues, setFormValues] = useState({
     name: "",
